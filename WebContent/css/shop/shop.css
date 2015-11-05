@@ -1,0 +1,39 @@
+
+.good_title {
+	font-size: 25px;
+  	font-weight: 700;
+}
+.good_title_simple {
+	color:#dd2727;
+  	font-weight: 600;
+}
+
+.good_tr {
+	line-height: 45px;
+}
+.good_td {
+	font-weight: 600;
+}
+.good_td_tag {
+	color:#999;
+	font-weight: 400;
+}
+.good_td_price {
+	color:#c40000;
+	font-weight: 600;
+}
+.good_td_price_delete {
+	text-decoration:line-through;
+	color:#999;
+	font-weight: 600;
+}
+.good_td_price_out {
+	padding-left: 20px;
+  	font-size: 10px;
+  	color: #c40000;
+}
+.good_td_price_in {
+	padding-left: 20px;
+  	font-size: 10px;
+  	color: #999;
+}
