@@ -45,7 +45,7 @@ public class BlogController extends MultiActionController  {
 		
 		List<RobotBlogTheme> themeList = blogService.getPublicRobotBlogTheme();
 		List<RobotBlogTheme> privateThemes = null;
-		if (user != null && user.isAuthor()) { //判断作家，添加作家私有主题
+		if (user != null && user.isAuthor()) { //判断作家，添加作家私有主题1
 			privateThemes = blogService.getPrivateRobotBlogTheme(user.getUserId(), 1);
 			if ( !CollectionUtils.isEmpty(privateThemes) ) 
 				themeList.addAll(privateThemes);
